@@ -1,4 +1,4 @@
-package com.sanyue.sanyuejavautil.util.excel;
+package com.sanyue.sanyuejavautil.util.excel.read;
 
 import cn.hutool.json.JSONUtil;
 import com.alibaba.excel.context.AnalysisContext;
@@ -6,7 +6,7 @@ import com.alibaba.excel.exception.ExcelDataConvertException;
 import com.alibaba.excel.metadata.data.ReadCellData;
 import com.alibaba.excel.read.listener.ReadListener;
 import com.alibaba.excel.util.ListUtils;
-import com.sanyue.sanyuejavautil.model.entity.DemoData;
+import com.sanyue.sanyuejavautil.model.entity.read.DemoData;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;

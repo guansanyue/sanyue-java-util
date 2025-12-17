@@ -1,11 +1,9 @@
-package com.sanyue.sanyuejavautil.model.entity;
+package com.sanyue.sanyuejavautil.model.entity.read;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import com.alibaba.excel.annotation.format.DateTimeFormat;
 import com.alibaba.excel.annotation.format.NumberFormat;
 import lombok.Data;
-
-import java.util.Date;
 
 @Data
 public class DemoData2 {

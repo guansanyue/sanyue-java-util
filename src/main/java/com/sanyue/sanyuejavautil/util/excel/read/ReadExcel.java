@@ -1,12 +1,12 @@
-package com.sanyue.sanyuejavautil.util.excel;
+package com.sanyue.sanyuejavautil.util.excel.read;
 
 import cn.hutool.json.JSONUtil;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelReader;
 import com.alibaba.excel.read.listener.PageReadListener;
 import com.alibaba.excel.read.metadata.ReadSheet;
-import com.sanyue.sanyuejavautil.model.entity.DemoData;
-import com.sanyue.sanyuejavautil.model.entity.DemoData2;
+import com.sanyue.sanyuejavautil.model.entity.read.DemoData;
+import com.sanyue.sanyuejavautil.model.entity.read.DemoData2;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;

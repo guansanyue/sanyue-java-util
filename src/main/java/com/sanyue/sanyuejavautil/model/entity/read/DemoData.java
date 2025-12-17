@@ -1,4 +1,4 @@
-package com.sanyue.sanyuejavautil.model.entity;
+package com.sanyue.sanyuejavautil.model.entity.read;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;

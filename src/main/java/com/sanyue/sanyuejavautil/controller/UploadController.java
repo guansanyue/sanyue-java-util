@@ -1,11 +1,9 @@
 package com.sanyue.sanyuejavautil.controller;
 
 import com.alibaba.excel.EasyExcel;
-import com.sanyue.sanyuejavautil.model.entity.DemoData;
-import com.sanyue.sanyuejavautil.model.entity.DemoData2;
-import com.sanyue.sanyuejavautil.util.excel.DemoDataListener;
+import com.sanyue.sanyuejavautil.model.entity.read.DemoData;
+import com.sanyue.sanyuejavautil.util.excel.read.DemoDataListener;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
